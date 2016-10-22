@@ -52,5 +52,5 @@
       React.DOM.button
         type: 'submit'
         className: 'btn btn-primary'
-        disable: !@valid()
+        disabled: !@valid()
         'Create Record'
